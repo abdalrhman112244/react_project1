@@ -1,0 +1,16 @@
+.Home .hero button {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.Home .hero button:hover{
+    color: white;
+    background-color: black;
+}
+@media screen and (max-width:600px) {
+    .Home .hero button{
+        font-size: .8rem;
+    }
+}

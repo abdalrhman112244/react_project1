@@ -1,0 +1,36 @@
+.hero{
+    position: relative;
+    height: 90vh;
+}
+.hero img{
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+}
+.hero .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.hero .info h1{
+    font-size: 3rem;
+}
+.hero .info p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: .5rem 0px;
+}
+@media screen and (max-width:600px) {
+    .hero .info h1{
+        font-size: 2rem;
+    }
+    .hero .info p{
+        font-size: 1rem;
+    }
+
+}

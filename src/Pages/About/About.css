@@ -1,0 +1,14 @@
+.About .hero button{
+    display: none;
+}
+.our{
+    width: 90vw;
+    margin: 40px auto;
+    font-size: 1.3rem;
+}
+.our h2{
+    margin-bottom: 20px;
+}
+.our .box{
+    margin: 30px 0px;
+}

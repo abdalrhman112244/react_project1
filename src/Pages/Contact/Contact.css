@@ -1,0 +1,39 @@
+.Contact .hero button{
+    display: none;
+}
+.Send{
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Send .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Send .form input {
+    width: 200%;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.Send .form textarea{
+    width: 200%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.Send .form button{
+    width: 200%;
+    padding: 10px;
+}
+.header-incontact{
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .Send .form input , .Send .form textarea , .Send .form button{
+        width: 150%;
+    }
+}
